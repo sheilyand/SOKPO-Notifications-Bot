@@ -10,7 +10,7 @@ namespace SOKPO_NotificationsBot_Tests
 
         [Test]
         [Description("Проверяет корректность конфигурационного файла бота")]
-        public void IsConfigFileCorrect()
+        public void IsThereAConfig()
         {
             string configFileName = "config.json";
             string projectName = "SOKPO-NotificationsBot";

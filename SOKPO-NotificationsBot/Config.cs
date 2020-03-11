@@ -41,7 +41,6 @@ namespace SOKPO_NotificationsBot
         /// <returns></returns>
         string ReadToken() 
         {
-
             JObject parsedJson = GetConfig();
             try
             {
